@@ -1,0 +1,67 @@
+:root {
+    --color-accent: #FFBF00;
+    --color-title: #242424;
+    --color-wite: #fff;
+    --transition: all 0.4s;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10vh;
+}
+
+.body {
+    font-family: Montserrat, sans-serif;
+    color: #000;
+    line-height: 2;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+h1 {
+    color: var(--color-title);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5;
+    /* 150% */
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1236px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+.title {
+    color: var(--color-title);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+    /* 137.5% */
+}
+
+.btn {
+    color: var(--color-title);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 12px 41px;
+    background: var(--color-accent);
+}
